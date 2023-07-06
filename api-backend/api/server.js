@@ -16,5 +16,5 @@ http.createServer(app).listen(server_port, () => { log(`Running https on port: {
 
 // DB
 mongoose.set('strictQuery', true);
-const uri = `mongodb+srv://admin:${process.env.MONGO_ATLAS_PW}@softeng22-35-mongo-clus.js8eu1b.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://el19206:softeng2235@cluster0.gaa0ude.mongodb.net/?retryWrites=true&w=majority`;
 mongoose.connect(uri);
